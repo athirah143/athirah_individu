@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+body{
+	background-image: url('scenery03.jpg');
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+
+h1{
+	color: #C71585;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 30px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.7s ease;
+}
+
+ul li a:hover{
+	background-color: #8A2BE2;
+	color: #fff;
+}
+h1{
+	text-align: center;
+ }
